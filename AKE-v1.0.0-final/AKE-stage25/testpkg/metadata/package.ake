@@ -1,0 +1,17 @@
+name=Example
+id=com.example.example
+version=1.1.0
+publisher=AKE Test
+architecture=x64
+entry=bin/Example.exe
+ake_version=1.0
+env.APP_MODE=stage6
+env.EXAMPLE_FEATURE=isolated-lib
+
+permission.filesystem=appcontainer
+permission.process=children
+permission.network=internet
+resource.memory=256MiB
+resource.cpu=50%
+resource.processes=32
+resource.cpu-time=60s

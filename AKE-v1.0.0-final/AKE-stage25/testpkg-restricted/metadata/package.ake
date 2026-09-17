@@ -1,0 +1,15 @@
+name=Example-Restricted
+id=com.example.example-restricted
+version=1.0.0
+publisher=AKE Test
+architecture=x64
+entry=bin/Example.exe
+ake_version=1.0
+permission.filesystem=package
+permission.process=children
+permission.network=host
+permission.identity=restricted
+resource.memory=256MiB
+resource.cpu=50%
+resource.processes=32
+resource.cpu-time=60s
